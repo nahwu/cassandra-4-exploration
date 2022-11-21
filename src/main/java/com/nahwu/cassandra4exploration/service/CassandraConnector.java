@@ -31,7 +31,7 @@ public class CassandraConnector {
     }
 
     public CqlSession getSession() {
-        logger.info("__Getting Cassandra session");
+        //logger.info("__Getting Cassandra session");
         if (session == null) {
             connect(env.getProperty("service.datastax.cassandra.node.contact-points"),
                     Integer.valueOf(env.getProperty("service.datastax.cassandra.node.port")),

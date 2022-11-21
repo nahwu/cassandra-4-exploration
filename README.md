@@ -10,8 +10,6 @@ cqlsh
 CREATE KEYSPACE testKeySpace WITH replication = {'class' : 'SimpleStrategy', 'replication_factor' : 1};
 
 ## cqlsh> Table creation
-CREATE TABLE testkeyspace.cyclist_stats ( id UUID PRIMARY KEY, lastname text, birthday timestamp, nationality text, weight text, height text );
-
 DROP TABLE testkeyspace.testdbobject;
 
 CREATE TABLE testkeyspace.testdbobject (
@@ -22,17 +20,16 @@ WITH CLUSTERING ORDER BY (date DESC);
 
 
 ## cqlsh> Row insertion
-INSERT INTO testkeyspace.cyclist_stats (id, lastname, birthday, nationality, weight, height) 
-VALUES (e027962a-3226-4ea3-83e4-57230a457436, 'Scott', dateof(now()), $$Women's Tour of New Zealand$$, '56kg', '163cm');
+INSERT INTO testkeyspace.testdbobject (id, date, item, category, payer, receiver, amount, imageUrl) 
+VALUES (e027962a-3226-4ea3-83e4-57230a457436, dateof(now()), $$Women's Tour of New Zealand$$, 'NEW_CATEGORY','payer1','receiver2', 123.45, '');
 
 ## Basic select
-SELECT * FROM testkeyspace.cyclist_stats;
-
 SELECT * FROM testkeyspace.testdbobject LIMIT 10;
 
+SELECT COUNT(*) FROM testkeyspace.testdbobject;
 
-
-CREATE CUSTOM INDEX cyclist_contains ON testkeyspace.cyclist_stats (lastname) USING 'org.apache.cassandra.index.sasi.SASIIndex'
+## SASI Index creation
+CREATE CUSTOM INDEX cyclist_contains ON testkeyspace.testdbobject (item) USING 'org.apache.cassandra.index.sasi.SASIIndex'
 WITH OPTIONS = { 'mode': 'CONTAINS' };
 
 

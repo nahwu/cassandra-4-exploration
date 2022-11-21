@@ -74,7 +74,7 @@ public class TestController {
                             schema = @Schema(implementation = Integer.class))})})
     public ResponseEntity<?> writeLotsOfDataToCassandra(
             @RequestBody TestRequest testRequest) {
-        testService.writeLotsOfData(testRequest.getInsertionSize());
+        testService.writeLotsOfData5ExecuteAsync(testRequest.getInsertionSize());
         return new ResponseEntity<>("Written!", HttpStatus.OK);
     }
 }
