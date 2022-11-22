@@ -2,7 +2,6 @@ package com.nahwu.cassandra4exploration.controller;
 
 import com.nahwu.cassandra4exploration.entity.TestDbObject;
 import com.nahwu.cassandra4exploration.entity.TestRequest;
-import com.nahwu.cassandra4exploration.service.TestService2Impl;
 import com.nahwu.cassandra4exploration.service.TestServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,9 +23,6 @@ public class TestController {
 
     @Autowired
     private TestServiceImpl testService;
-
-    @Autowired
-    private TestService2Impl testService2;
 
     @PostMapping("/v1/test/api/echo")
     @Operation(summary = "Test API and reply with the same request payload")
@@ -59,9 +55,6 @@ public class TestController {
     public ResponseEntity<?> testCassandra() {
         Iterable<TestDbObject> books = testService.insertAndSelectObjects();
         logger.info(books.iterator().toString());
-
-        Iterable<TestDbObject> books2 = testService2.insertAndSelectObjects();
-        logger.info(books2.iterator().toString());
 
         return new ResponseEntity<>("Got a response!", HttpStatus.OK);
     }
