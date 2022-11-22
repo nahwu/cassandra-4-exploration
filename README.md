@@ -14,7 +14,7 @@
 # 3. Deployment Configuration
 ## 3.1 Cassandra Database initial configuration
 ### 3.1.1 SSH into Docker container
-    docker exec -it cassandra-4-exploration-cassandra_db-1 /bin/bash
+    docker exec -it cassandra-4-exploration-cassandra-db-1 /bin/bash
 
 ### 3.1.2 Connect to Cassandra DB via cqlsh tool
     cqlsh
