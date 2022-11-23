@@ -34,7 +34,7 @@
 ## 3.2 Other Commands
 ### [OPTIONAL] cqlsh> Row insertion
     INSERT INTO testkeyspace.testdbobject (id, date, item, category, payer, receiver, amount, imageUrl) 
-    VALUES (e027962a-3226-4ea3-83e4-57230a457436, dateof(now()), $$Women's Tour of New Zealand$$, 'NEW_CATEGORY','payer1','receiver2', 123.45, '');
+    VALUES (e027962a-3226-4ea3-83e4-57230a457436, dateof(now()), 'myitem', 'NEW_CATEGORY','payer1','receiver2', 123.45, 'http://abc.com');
 
 ### [OPTIONAL] Basic select
     SELECT * FROM testkeyspace.testdbobject LIMIT 10;

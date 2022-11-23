@@ -17,7 +17,7 @@ public class CassandraConfig extends AbstractCassandraConfiguration {
 
     @Override
     protected String getKeyspaceName() {
-        return "testKeySpace";
+        return "testkeyspace";
     }
 
     // Changed since driver v4.0.0   Link: https://docs.datastax.com/en/developer/java-driver/4.14/upgrade_guide/#4-0-0
@@ -25,7 +25,7 @@ public class CassandraConfig extends AbstractCassandraConfiguration {
     public CqlSessionFactoryBean cassandraSession() {
         final CqlSessionFactoryBean cqlSessionFactoryBean = new CqlSessionFactoryBean();
         cqlSessionFactoryBean.setContactPoints(env.getProperty("service.datastax.cassandra.node.contact-points"));
-        //cqlSessionFactoryBean.setKeyspaceName(keyspace);
+        cqlSessionFactoryBean.setKeyspaceName(env.getProperty("service.datastax.cassandra.keyspace"));
         cqlSessionFactoryBean.setLocalDatacenter(env.getProperty("service.datastax.cassandra.node.local-datacenter"));
         cqlSessionFactoryBean.setPort(Integer.valueOf(env.getProperty("service.datastax.cassandra.node.port")));
         return cqlSessionFactoryBean;

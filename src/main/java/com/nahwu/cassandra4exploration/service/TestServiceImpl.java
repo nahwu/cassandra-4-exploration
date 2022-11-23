@@ -63,8 +63,7 @@ public class TestServiceImpl {
                     getRandomStringFromList(peopleList),
                     getRandomStringFromList(peopleList),
                     getRandomNumberUsingNextDouble(0.0d, 50.0d),
-                    "a"
-                    //"c2RmYXNmdnNkZmR2ZmRzMjRmcjNc2c2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzM0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0"
+                    "c2RmYXNmdnNkZmR2ZmRzMjRmcjNc2c2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzM0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0"
             );
             insertionList.add(newDbObject);
         }
@@ -75,7 +74,6 @@ public class TestServiceImpl {
     }
 
     public void writeLotsOfData2Save(int insertionSize) {
-        ArrayList<TestDbObject> insertionList = new ArrayList();
         ArrayList<String> peopleList = new ArrayList<>(Arrays.asList("Person 1", "Person 2", "Person 3"));
         ArrayList<String> categoryList = new ArrayList<>(Arrays.asList("face", "body", "vehicle", "anpr", "vmmr"));
 
@@ -87,10 +85,8 @@ public class TestServiceImpl {
                     getRandomStringFromList(peopleList),
                     getRandomStringFromList(peopleList),
                     getRandomNumberUsingNextDouble(0.0d, 50.0d),
-                    "a"
-                    //"c2RmYXNmdnNkZmR2ZmRzMjRmcjNc2c2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzM0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0"
+                    "c2RmYXNmdnNkZmR2ZmRzMjRmcjNc2c2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzM0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0"
             );
-            insertionList.add(newDbObject);
             testDbObjectRepository.save(newDbObject);       // 166 seconds  (save)     165  (saveAll)
         }
         logger.info("__Data written into DB. Size: " + insertionSize);
@@ -111,8 +107,7 @@ public class TestServiceImpl {
                     getRandomStringFromList(peopleList),
                     getRandomStringFromList(peopleList),
                     getRandomNumberUsingNextDouble(0.0d, 50.0d),
-                    "a"
-                    //"c2RmYXNmdnNkZmR2ZmRzMjRmcjNc2c2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzM0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0"
+                    "c2RmYXNmdnNkZmR2ZmRzMjRmcjNc2c2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzMjRmcjNc2RmYXNmdnNkZmR2ZmRzM0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0c2RmYXNmdnNkZmR2ZmRzMjRmcjN0MzR0MzR0NHQzdHZ3NXQ1dHd0MzR0"
             );
             insertionList.add(newDbObject);
             if (currentLoad >= 5 || index + 1 >= insertionSize) {
@@ -140,7 +135,6 @@ public class TestServiceImpl {
                     .value("receiver", literal(getRandomStringFromList(peopleList)))
                     .value("amount", literal(getRandomNumberUsingNextDouble(0.0d, 50.0d)));
 
-            //ResultSet rs = cassConnector.getSession().execute(a.toString());
             cassConnector.getSession().execute(a.toString());
         }
         logger.info("__Data written into DB. Size: " + insertionSize);
@@ -182,7 +176,6 @@ public class TestServiceImpl {
 
         logger.info("__Data written into DB. Size: " + insertionSize);
     }
-
 
     private double getRandomNumberUsingNextDouble(double min, double max) {
         Random random = new Random();
